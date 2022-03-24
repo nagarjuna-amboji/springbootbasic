@@ -1,10 +1,13 @@
 server:
   port: 8082
+  error:
+    include-message: always
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/student
     username: amigoscode
     password: amigoscode
+
   jpa:
     hibernate:
       ddl-auto: create-drop

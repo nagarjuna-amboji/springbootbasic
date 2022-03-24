@@ -20,13 +20,11 @@ public class StudentConfig {
             Student arjun = new Student(
                             "Arjuna",
                             LocalDate.of(1990, Month.JULY, 17),
-                            31,
                             "nagarjuna.a@gmail.com"
                     );
             Student vani = new Student(
                     "Vani",
                     LocalDate.of(1992, Month.APRIL, 22),
-                    28,
                     "amboji.vani@gmail.com"
             );
 
